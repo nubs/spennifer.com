@@ -10,9 +10,14 @@ $imagesize = ($small ? 100 : 150);
 <title>The Spennifer Wedding</title>
 <link rel="stylesheet" type="text/css" href="<?=$small?>style.css" />
 <script type="text/javascript">
-
-function scroll(posneg)
+function scroll(posneg, nocookie)
 {
+	posneg %= <?=(count($images)) * ($imagesize + 5)?>;
+	if(!nocookie)
+	{
+		scrollpos = getCookie('scrollpos');
+		setCookie('scrollpos', (scrollpos ? parseInt(scrollpos) : 0) + posneg);
+	}
 	images = document.getElementsByName('scroll_img');
 	for(i = 0; i < images.length; i++)
 	{
@@ -23,9 +28,9 @@ function scroll(posneg)
 
 		left_val += posneg;
 		if(left_val <= -<?=$imagesize + 5?>)
-			left_val = <?=(count($images) - 1) * ($imagesize + 5)?>;
+			left_val += <?=count($images) * ($imagesize + 5)?>;
 		else if(left_val >= <?=(count($images) - 1) * ($imagesize + 5)?>)
-			left_val = -<?=$imagesize + 5?>;
+			left_val -= <?=count($images) * ($imagesize + 5)?>;
 		images[i].style.left = left_val;
 	}
 }
@@ -71,9 +76,18 @@ function hide_tip(e)
 {
 	document.body.removeChild(document.getElementById("tip" + (e.target ? e.target: e.srcElement).getAttribute('tiptitle')));
 }
+function getCookie(name)
+{
+	var results = document.cookie.match ( '(^|;) ?' + name + '=([^;]*)(;|$)' );
+	return (results ? results[2] : null);
+}
+function setCookie(name,value)
+{
+	document.cookie = name + "=" + value + ";";
+}
 </script>
 </head>
-<body onload="load_tips();">
+<body onload="load_tips();scroll(<?=$_COOKIE['scrollpos']?>, true);">
 <table id="nav">
 	<tr>
 	<td width="10%"><img src="<?=$small?>images/ring.jpg" /></td>
