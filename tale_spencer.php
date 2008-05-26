@@ -2,7 +2,7 @@
 	<tr>
 		<td><img src="images/tale/spencer_200.jpg" /></td>
 		<td>
-			<p>Spencer Rinehart was born on January 27, 1985 in Hattiesburg, Mississippi. His family--R. Sean and Angie Rinehart and his younger sister Chelsea--moved around several times after his dad joined the Navy (Go Navy!), and lived in Mississippi, South Carolina, and Virginia. After graduating from Great Bridge High School in 2003, he likewise went to Virginia Tech. He graduated in the Spring of 2006 with his Bachelor's Degree in Computer Science and now calls Chesapeake his home once again. He has been working as a Web Programmer for Trader Publishing (now Dominion Enterprises) since June 2006 and spends most of his free time working on side projects or with his wonderful new fiancee.</p>
+			<p>Spencer Rinehart was born on January 27, 1985 in Hattiesburg, Mississippi. His family--R. Sean and Angie Rinehart and his younger sister Chelsea--moved around several times after his dad joined the Navy (Go Navy!), and lived in Mississippi, South Carolina, and Virginia. After graduating from Great Bridge High School in 2003, he likewise went to Virginia Tech. He graduated in the Spring of 2006 with his Bachelor's Degree in Computer Science and now calls Chesapeake his home once again. He has been working as a Web Programmer for Trader Publishing (now Dominion Enterprises) since June 2006 and spends most of his free time working on side projects or with his wonderful fiancee.  This past January, Spencer and Jennifer bought a townhouse, where he has since been living.  They both have been spending time picking out and buying furniture, gardening, and decorating.</p>
 		</td>
 	</tr>
 	<tr>
