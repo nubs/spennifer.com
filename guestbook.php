@@ -1,6 +1,6 @@
 <?php
-$db = mysql_connect('db1442.perfora.net', 'dbo241246866', '7HSnECb3') or die('mysql connect error');
-mysql_select_db('db241246866') or die('mysql selectdb error');
+$db = mysql_connect('anubis.homelinux.com', 'anubis', '1015184') or die('mysql connect error');
+mysql_select_db('wedding') or die('mysql selectdb error');
 if(@$_POST['message'] && @$_POST['from'])
 {
 	mysql_query("INSERT INTO guestbook (date, who, message) VALUES(NOW(), '" . mysql_real_escape_string($_POST['from']) . "', '" . mysql_real_escape_string($_POST['message']) . "')") or die(mysql_errno() . ': ' . mysql_error());
