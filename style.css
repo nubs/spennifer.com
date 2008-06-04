@@ -85,3 +85,9 @@ img.scroll_img
 	width: 150px;
 	height: 150px;
 }
+
+div.image
+{
+	float: left;
+	margin: 3px;
+}
