@@ -6,7 +6,7 @@
 		<td><img src="images/ceremony/gbumc3.jpg" /></td>
 	</tr>
 	<tr>
-		<td colspan="3">The ceremony will be held at <a target="_blank" href="http://www.greatbridgeumc.org">Great Bridge United Methodist Church</a>, Spencer and Jennifer's home church in Chesapeake, Virginia.  The Rineharts and the McClures have been active members of GBUMC for quite some time and could not have asked for a better church family.  Jennifer has worked as the part-time secretary for three summers, and during that time developed a close bond with the church staff.  Consequently, there is no one else Spencer and Jennifer would rather have perform the ceremony than Rev. Kesner.</td>
+		<td colspan="3"><p>The ceremony will be held at <a target="_blank" href="http://www.greatbridgeumc.org">Great Bridge United Methodist Church</a>, Spencer and Jennifer's home church in Chesapeake, Virginia.  The Rineharts and the McClures have been active members of GBUMC for quite some time and could not have asked for a better church family.  Jennifer has worked as the part-time secretary for three summers, and during that time developed a close bond with the church staff.  Consequently, there is no one else Spencer and Jennifer would rather have perform the ceremony than Rev. Kesner.</p></td>
 	</tr>
 	<tr>
 		<td><img src="images/ceremony/gbumc4.jpg" /></td>
