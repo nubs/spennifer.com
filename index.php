@@ -87,7 +87,7 @@ function setCookie(name,value)
 }
 </script>
 </head>
-<body onload="load_tips();scroll(<?=$_COOKIE['scrollpos']?>, true);">
+<body onload="load_tips();scroll(<?=@$_COOKIE['scrollpos']?>, true);">
 <table id="nav">
 	<tr>
 	<td width="10%"><img src="<?=$small?>images/ring.jpg" /></td>
