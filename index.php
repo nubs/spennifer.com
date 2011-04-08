@@ -1,5 +1,5 @@
 <?php
-$images = array(array('tale', 'The Spennifer Tale'), array('proposal', 'The Proposal'), array('ceremony', 'The Ceremony'), array('reception', 'The Reception'), array('honeymoon', 'The Honeymoon'), array('party', 'The Wedding Party'), array('events', 'Upcoming Events'), array('guests', 'Directions and Info for Out-of-town Guests'), array('photos', 'Photo Album'), array('registries', 'Gift Registries'), array('guestbook', 'The Guestbook'), array('justmarried', 'After the Wedding'), array('contact', 'Contact Team Spennifer'), array('home', 'Home'));
+$images = array(array('tale', 'The Spennifer Tale'), array('proposal', 'The Proposal'), array('ceremony', 'The Ceremony'), array('reception', 'The Reception'), array('honeymoon', 'The Honeymoon'), array('party', 'The Wedding Party'), array('events', 'Upcoming Events'), array('guests', 'Directions and Info for Out-of-town Guests'), array('photos', 'Photo Album'), array('registries', 'Gift Registries'), array('guestbook', 'The Guestbook'), array('justmarried', 'After the Wedding'), array('home', 'Home'));
 $page = ($_SERVER['QUERY_STRING'] ? strtolower($_SERVER['QUERY_STRING']) : 'home');
 $small = ($page == 'home' ? '' : 'small/');
 $imagesize = ($small ? 100 : 150);
