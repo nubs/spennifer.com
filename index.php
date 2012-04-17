@@ -126,7 +126,7 @@ foreach($images as $i => $image)
 	<tr>
 		<td colspan="3" style="text-align: center;">
 <?php
-@include_once("$page.php");
+@include_once "$page.html";
 ?>
 		</td>
 	</tr>
