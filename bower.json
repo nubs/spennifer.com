@@ -1,0 +1,19 @@
+{
+  "name": "spennifer.com",
+  "version": "0.1.0",
+  "homepage": "http://spennifer.com",
+  "authors": [
+    "Spencer Rinehart <anubis@overthemonkey.com>"
+  ],
+  "description": "Snapped by Spennifer Photography website",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "3.x",
+    "font-awesome": "4.x"
+  }
+}

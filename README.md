@@ -1,3 +1,3 @@
 spennifer.com
 =============
-Website about our wedding.
+Snapped by Spennifer Photography website.
