@@ -1,22 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "9695b552c62eba94c91fbc3e06d1e772",
     "packages": [
         {
             "name": "aura/di",
-            "version": "dev-develop-2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Di.git",
-                "reference": "afbfd73f1315a1bd768affa06b7106ccbf04ebbe"
+                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/afbfd73f1315a1bd768affa06b7106ccbf04ebbe",
-                "reference": "afbfd73f1315a1bd768affa06b7106ccbf04ebbe",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/68ffa4f76a2525ce3b7d211c09c71709a882556c",
+                "reference": "68ffa4f76a2525ce3b7d211c09c71709a882556c",
                 "shasum": ""
             },
             "require": {
@@ -34,10 +35,7 @@
             "autoload": {
                 "psr-4": {
                     "Aura\\Di\\": "src/"
-                },
-                "files": [
-                    "autoload.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -50,7 +48,7 @@
                 }
             ],
             "description": "Provides a dependency injection container system with native support for constructor- and setter-based injection, lazy-loading of services, and inheritable configuration of setters and constructor params.",
-            "homepage": "https://github.com/auraphp/Aura.Di/releases",
+            "homepage": "https://github.com/auraphp/Aura.Di",
             "keywords": [
                 "container",
                 "dependency injection",
@@ -58,7 +56,7 @@
                 "di",
                 "di container"
             ],
-            "time": "2014-02-03 14:22:02"
+            "time": "2014-11-06 18:13:34"
         },
         {
             "name": "aura/dispatcher",
@@ -66,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Dispatcher.git",
-                "reference": "d92786384be85b4ed92ee277589d22710580a202"
+                "reference": "4c3fb93516b89343271fcadcb0f42ddf7201ed41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/d92786384be85b4ed92ee277589d22710580a202",
-                "reference": "d92786384be85b4ed92ee277589d22710580a202",
+                "url": "https://api.github.com/repos/auraphp/Aura.Dispatcher/zipball/4c3fb93516b89343271fcadcb0f42ddf7201ed41",
+                "reference": "4c3fb93516b89343271fcadcb0f42ddf7201ed41",
                 "shasum": ""
             },
             "require": {
@@ -102,26 +100,26 @@
                 }
             ],
             "description": "Creates objects from a factory and invokes methods using named parameters; also provides a trait for invoking closures and object methods with named parameters.",
-            "homepage": "https://github.com/auraphp/Aura.Dispatcher/releases",
+            "homepage": "https://github.com/auraphp/Aura.Dispatcher",
             "keywords": [
                 "controller",
                 "dispatcher",
                 "factory"
             ],
-            "time": "2014-01-31 15:59:48"
+            "time": "2014-11-09 00:01:50"
         },
         {
             "name": "aura/router",
-            "version": "dev-develop-2",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/auraphp/Aura.Router.git",
-                "reference": "004dea14e42c42db406e5d3e8ad19d8861e31f3c"
+                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/004dea14e42c42db406e5d3e8ad19d8861e31f3c",
-                "reference": "004dea14e42c42db406e5d3e8ad19d8861e31f3c",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
+                "reference": "2544c687a5074ca8ce0dbe6d27a04c006a118e2a",
                 "shasum": ""
             },
             "require": {
@@ -130,7 +128,10 @@
             "type": "library",
             "extra": {
                 "aura": {
-                    "type": "library"
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Router\\_Config\\Common"
+                    }
                 },
                 "branch-alias": {
                     "dev-develop-2": "2.0.x-dev"
@@ -138,7 +139,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Aura\\Router\\": "src/"
+                    "Aura\\Router\\": "src/",
+                    "Aura\\Router\\_Config\\": "config/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -152,26 +154,26 @@
                 }
             ],
             "description": "A web router implementation; given a URI path and a copy of $_SERVER, it will extract path-info parameter values for a specific route.",
-            "homepage": "https://github.com/auraphp/Aura.Router/releases",
+            "homepage": "https://github.com/auraphp/Aura.Router",
             "keywords": [
                 "route",
                 "router",
                 "routing"
             ],
-            "time": "2014-02-09 19:13:05"
+            "time": "2014-11-10 15:51:58"
         },
         {
             "name": "twig/twig",
-            "version": "v1.15.1",
+            "version": "v1.16.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "6dc11a1e8ecfc30e2c68aaeb218148409d8e68af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6dc11a1e8ecfc30e2c68aaeb218148409d8e68af",
+                "reference": "6dc11a1e8ecfc30e2c68aaeb218148409d8e68af",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +182,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -200,13 +202,13 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher2",
+                    "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
                     "role": "Contributors"
                 }
             ],
@@ -215,25 +217,18 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-13 10:19:29"
+            "time": "2014-12-25 19:58:19"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "aura/di": 20,
         "aura/router": 20,
         "aura/dispatcher": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
 }
