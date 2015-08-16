@@ -1,3 +1,2 @@
-spennifer.com
-=============
+# spennifer.com
 Snapped by Spennifer Photography website.
